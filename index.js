@@ -9,10 +9,8 @@ server.use(express.static(path.join(__dirname, 'client/build')));
 // Put all API endpoints under '/api'
 server.get('/api/', (req, res) => {
 
-    // Generate some passwords
     const response = 'hello';
 
-    // Return them as json
     res.json(response);
 
 
