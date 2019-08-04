@@ -20,5 +20,6 @@
   "homepage": "https://github.com/mvpache/zenhub_app#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }

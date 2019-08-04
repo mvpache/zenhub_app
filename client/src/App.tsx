@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Hello } from "./Hello";
+
 function App() {
   return (
     <div>
-          Learn React
+      <Hello compiler="TypeScript" framework="React" />,
     </div>
   );
 }
